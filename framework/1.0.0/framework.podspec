@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "Raffi Manissalian" => "raffi.manissalian@theoplayer.com" }
-    s.source       = { :git => "git@github.com:therama/framework.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/therama/framework.git", :tag => "#{s.version}" }
     s.vendored_frameworks = "MyFramework.xcframework"
     s.platform = :ios
     s.swift_version = "4.2"
